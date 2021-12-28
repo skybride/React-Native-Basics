@@ -4,6 +4,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import ImageComponent from './BasicComponents/ImageComponent';
+import TextInputComponent from './BasicComponents/TextInputComponent';
 
 export default function App() {
   return (
@@ -14,7 +15,10 @@ export default function App() {
         
       </View>
       <View>
-      <ImageComponent />
+        <ImageComponent />
+      </View>
+      <View>
+        <TextInputComponent />
       </View>
     </View>
   );
@@ -23,7 +27,7 @@ export default function App() {
 const styles = StyleSheet.create({
   bold: {
     fontSize: 30,
-    // paddingTop: 40
+    paddingTop: 40
   },
   center: {
     justifyContent: "center",
