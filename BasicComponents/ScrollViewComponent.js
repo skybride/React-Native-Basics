@@ -29,10 +29,11 @@ const ScrollViewComponent = () => {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        // flex: 1,
-        // paddingTop: StatusBar.currentHeight
-    },
+/**StatusBar is not being used in parent View but height is set*/
+    // container: {
+    //     flex: 1,
+    //     paddingTop: StatusBar.currentHeight
+    // },
     scrollView: {
         marginHorizontal: 150
     },
