@@ -4,6 +4,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import ImageComponent from './BasicComponents/ImageComponent';
+import ScrollViewComponent from './BasicComponents/ScrollViewComponent';
 import TextInputComponent from './BasicComponents/TextInputComponent';
 
 export default function App() {
@@ -19,6 +20,9 @@ export default function App() {
       </View>
       <View>
         <TextInputComponent />
+      </View>
+      <View>
+        <ScrollViewComponent />
       </View>
     </View>
   );

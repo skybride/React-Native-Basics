@@ -12,16 +12,14 @@ Implemented:
 - StyleSheet
 - Image (assets)
 - TextInput (no logic)
-
-To Do:
 - ScrollView
 
+To Do:
 [UI Components]
 - Button
 - Switch
 
 Concepts to Investigate:
-* SafeAreaView vs View
 * Does iOS support DrawerLayout?
 
 
