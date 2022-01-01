@@ -6,6 +6,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import ButtonComponent from './BasicComponents/ButtonComponent';
 import ImageComponent from './BasicComponents/ImageComponent';
 import ScrollViewComponent from './BasicComponents/ScrollViewComponent';
+import SwitchComponent from './BasicComponents/SwitchComponent';
 import TextInputComponent from './BasicComponents/TextInputComponent';
 
 export default function App() {
@@ -22,6 +23,10 @@ export default function App() {
       <View style={styles.separator}></View>
       <View>
         <TextInputComponent />
+      </View>
+      <View style={styles.separator} />
+      <View>
+        <SwitchComponent />
       </View>
       <View style={styles.separator} />
       <View>

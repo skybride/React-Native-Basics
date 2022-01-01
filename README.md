@@ -13,11 +13,13 @@ Implemented:
 - Image (assets)
 - TextInput (no logic)
 - ScrollView
-
-To Do:
-[UI Components]
 - Button
 - Switch
+
+To Do:
+[ListViews Components]
+- FlatList
+- SectionList
 
 Concepts to Investigate:
 * Does iOS support DrawerLayout?
